@@ -35,3 +35,17 @@ navLinks.forEach((link) => {
   link.addEventListener("click", closeNavMenu);
 })
 
+
+
+const partnerSwiper = new Swiper('.partner-swiper', {
+  loop: true,
+  slidesPerView: 'auto',
+  //spaceBetween: 40,
+  speed: 3000,
+  allowTouchMove: false,
+  autoplay: {
+    delay: 0,
+    disableOnInteraction: false,
+    pauseOnMouseEnter: true
+  },
+});
